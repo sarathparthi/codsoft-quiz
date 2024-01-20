@@ -1,0 +1,65 @@
+.content {
+    margin-top: 0px;
+    }
+    .header {
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    }
+    .left-title {
+    width: 80px;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .right-title {
+    width: 150px;
+    text-align: right;
+    float: right;
+    color: #ffffff;
+    font-size: 18px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .quiz-body {
+        position: absolute;
+        top: 260px;
+        left: 515px;
+        color: #ffffff;
+    }
+    .option-block-container {
+    margin-top: 20px;
+    max-width: 420px;
+    }
+    .option-block {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background: rgb(0, 129, 243);
+    border: 1px solid #ffffff;
+    border-width: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+    .result-question {
+    font-weight: bold;
+    }
+    .c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+    }
+    .c-correct {
+    margin-left: 20px;
+    color: green;
+    }
+    .last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    }
+    .res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    }
